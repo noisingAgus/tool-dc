@@ -1,7 +1,7 @@
 import requests
 
 def get_ip_info(ip):
-    # Usamos 'ip' en lugar de 'query'
+    
     url = f"http://ip-api.com/json/{ip}"
 
     try:
